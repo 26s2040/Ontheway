@@ -1,0 +1,1011 @@
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(255, 200, 0);
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+.login {
+  align-items: center;
+  justify-content: center;
+}
+.div-form {
+  border-style: solid;
+  border-width: thin;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border-color: #f8faf8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  margin: 2px;
+}
+.smalltext {
+  font-size: 14px;
+  font-weight: bold;
+  color: #522a27;
+}
+
+.columndiv1 {
+  border-color: #a6d49f;
+  font-size: xx-large;
+  background-color: rgb(252, 252, 252);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.columndiv2 {
+  border-color: rgb(182, 179, 176);
+  font-size: xx-large;
+  height: auto;
+  padding: 20px;
+  /*   background-image: url("http://localhost:3000/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.loginImage {
+  height: 100%;
+  width: 100%;
+}
+.appTitle {
+  text-align: center;
+  color: #c73e1d;
+}
+.formrow {
+  background-color: #522a27;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side {
+  display: flex;
+  vertical-align: top;
+}
+.checkbox {
+  width: 25px;
+  height: 25px;
+}
+.button {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  background-color: #F2DD9C;
+  border-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10;
+  margin-left: 10px;
+}
+.navigation {
+  background-color: #9cb380;
+  height: 75px;
+  font-weight: bolder;
+  color: #522a27;
+}
+.footer {
+  display: flex;
+  background-color: rgba(240, 248, 255, 0.6); 
+  height: 100px;
+  color: #4a4a4a; 
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  flex-shrink: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.socialmedia {
+  width: 100px;
+  height: 100px;
+}
+
+.userImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.userInfos {
+  padding: 20px;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+  min-height: 300px;
+}
+.sharePosts {
+  padding-top: 10px;
+  height: 200px;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 10px;
+  border-color: #a6d49f;
+  text-align: center;
+}
+.inputPost {
+  margin-right: 10px;
+  width: 80%;
+  border-color: #522a27;
+}
+.input-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postButton {
+  background-color: #522a27;
+}
+.dept {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.selectDept .selectDept {
+  width: 10%;
+}
+.postUserImage {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  width: 100%;
+}
+.postMsg {
+  padding: 20px;
+
+  border: 1px solid rgb(244, 241, 241);
+}
+.postedBy {
+  padding: 10px;
+  background-color: rgb(236, 238, 236);
+  border-radius: 10px;
+}
+.postByName {
+  font-weight: bolder;
+  font: optional;
+}
+.postDate {
+  margin-left: 5px;
+}
+.navs {
+  padding: 10px;
+}
+.userName {
+  font-weight: bold;
+}
+.likes {
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  font-size: small;
+}
+/* General Header Styles */
+.header {
+  background-color: #f3f9ff; /* Primary color for the header */
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Brand (Logo) */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Nav Links */
+.nav-link {
+  color: white;
+  font-size: 16px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffdd57; /* Hover color for nav links */
+}
+
+/* Logout Button */
+.logout-btn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.logout-btn:hover {
+  color: #ffdd57;
+}
+
+/* Navbar Toggle (for mobile screens) */
+.navbar-toggler {
+  background-color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+  background-color: #edf1f6;
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 5px auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  .header {
+    text-align: center;
+  }
+}
+
+
+
+.nav a:hover {
+  color: #007bff; /* Change color on hover (optional) */
+}
+
+/* Global styles for the app */
+body, html {
+  margin: 10;
+  padding: 0;
+  height: 130%;
+  align-items:center;
+  width: 90%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Specific styles for Login */
+.login-container {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-image: url('./Images/back.jpg'); /* Replace with correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  padding: 50px;
+  border-radius: 8px;
+  width: 500px; /* Set a fixed width for the form */
+  box-shadow: 0 4px 10px rgb(236, 213, 130);
+}
+
+/* Title Styling */
+.app-title {
+  position: absolute; /* Keep the title fixed at the top-left */
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* Ensure it stays above all other elements */
+}
+
+.app-title h1 {
+  font-size: 3rem; /* Large, bold title */
+  color: #3b9ac6; /* Light blue color for modern feel */
+  font-weight: 700; /* Bold weight */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin: 0;
+}
+
+
+
+.reg-container {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-image: url('./Images/back.jpg'); /* Replace with correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.di-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  padding: 50px;
+  border-radius: 8px;
+  width: 500px; /* Set a fixed width for the form */
+  box-shadow: 0 4px 10px rgb(236, 213, 130);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container-fullscreen {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.driver-dashboard {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.driver-dashboard h1 {
+  color: #007bff;
+}
+
+
+.logout-message {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem; /* Slightly larger text for better visibility */
+  color: #4CAF50; /* Green color for a positive tone */
+  background-color: #F0FFF4; /* Light green background for emphasis */
+  border: 1px solid #4CAF50; /* Border to match text color */
+  border-radius: 8px; /* Rounded corners for a friendly look */
+  padding: 10px 20px; /* Spacing inside the box */
+  text-align: center; /* Center-align the text */
+  width: fit-content; /* Width adjusts to content */
+  margin: 20px auto; /* Center the message horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  animation: fadeIn 1s ease-in-out; /* Smooth fade-in effect */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .logout-message {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+.welcome-message {
+  font-family: 'Verdana', sans-serif; /* Clean and professional font */
+  font-size: 1.5rem; /* Slightly larger text for prominence */
+  color: #4CAF50; /* Green color for a positive tone */
+  text-align: center; /* Center the text */
+  margin: 20px auto; /* Center alignment with spacing around */
+  padding: 15px 20px; /* Add some space inside the message box */
+  background-color: #E8F5E9; /* Soft green background for contrast */
+  border: 2px solid #4CAF50; /* Border matches text color */
+  border-radius: 10px; /* Rounded corners for a friendly appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: fit-content; /* Adjusts to the content width */
+  animation: slideIn 0.8s ease-out; /* Smooth slide-in animation */
+}
+
+/* Animation for smooth entry */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .welcome-message {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    padding: 10px 15px;
+  }
+}
+
+/* General Reset for Box-Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Background container */
+.search-delivery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-image: url('./Images/about2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Title styling */
+.search-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3e73e6; /* White color for better contrast */
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Search Box styling */
+.search-box {
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+  width: 600px;
+  box-shadow: 0 4px 10px rgb(236, 213, 130); /* Subtle shadow */
+  margin: auto;
+}
+
+/* Input field styling */
+.search-input {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.search-button {
+  background-color: #4fc3f7; /* Light blue */
+  color: #000; /* Black text for contrast */
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #3aabe2; /* Slightly darker blue for hover effect */
+}
+
+
+/* Title Styling */
+.app-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.app-title h1 {
+  font-size: 3rem;
+  color: #4fc3f7;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+/* Learn More Link Styling */
+.learn-more-col {
+  text-align: right;
+  padding-right: 30px;
+  align-self: center;
+}
+
+.learn-more-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.learn-more-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+/* Align the top row with title and link */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Title Styling */
+.app-title h1 {
+  font-size: 3rem;
+  color: #4fc3f7;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.special-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: red; /* Change to red */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.special-link:hover {
+  color: darkred; /* Optional: Change to a darker red on hover */
+  text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); /* Optional: Red glow effect */
+}
+
+
+/* About Us Page */
+.about-us-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./Images/about2.jpg'); /* Replace with the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dri-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./Images/back.jpg'); /* Replace with the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-us-title {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.about-us-title h1 {
+  font-size: 3rem;
+  color: #ecff44f7;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.about-text-frame {
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border: 2px solid #007bff; /* Blue border for the frame */
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  font-family: "Arial", sans-serif;
+}
+
+.about-text p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about-text-frame {
+    padding: 40px;
+  }
+
+  .about-us-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+}
+
+
+/* Add this CSS to your stylesheet */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('./Images/about2.jpg'); /* Replace with the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-card {
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+  width: 400px;
+  box-shadow: 0 4px 10px rgb(236, 213, 130); /* Subtle shadow */
+  margin: auto;
+  
+}
+
+.welcome-message {
+  font-size: 1.5rem;
+  color: #3d46f1;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #555;
+}
+
+.update-button {
+  background-color: #9ca4a8; /* Light blue */
+  color: #ffffff; /* Black text for contrast */
+  font-weight: bold;
+  border-radius: 80px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #919395;
+}
+
+/* Driver Dashboard Page */
+.driver-dashboard {
+  background-image: url('./Images/about2.jpg'); /* Replace with correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 50px 20px;
+  color: #fff; /* Set text color to white for contrast */
+}
+
+/* Centered Header Styling */
+.driver-dashboard h1 {
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Card Container */
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff; /* Blue title */
+}
+
+/* Card Text */
+.card-text {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.card-body .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card-body .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card-body .btn-secondary {
+  background-color: #007bff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card-body .btn-secondary:hover {
+  background-color: #0056b3;
+}
+
+/* Driver Orders Page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for the table container */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Background Image */
+body {
+  background-image: url('./Images/about2.jpg'); /* Replace with correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Table Styling */
+.table {
+  margin-top: 20px;
+  color: #333;
+}
+
+.table th {
+  background-color: #007bff; /* Blue background for headers */
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Light grey for alternate rows */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9ecef; /* Light blue when hovered */
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Message Styling */
+.text-success {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.update-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Drivers list container styling */
+.drivers-container {
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.drivers-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.drivers-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styling for each driver card */
+.drivers-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.drivers-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.drivers-name {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+.delete-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #dc3545;
+  border-color: #c82333;
+}
+
+/* Styling for no drivers message */
+.no-drivers {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Dashboard Styles */
+div.dashboard {
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+  width: 600px;
+  box-shadow: 0 4px 10px rgb(236, 213, 130); /* Subtle shadow */
+  margin: auto;
+}
+
+div.dashboard h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #34321e;
+}
+
+/* Counter Component Styles */
+div.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.counter-container h3 {
+  font-size: 36px;
+  color: #007bff;
+  margin: 0;
+}
+
+.counter-container button {
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #1b88fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-container button:hover {
+  background-color: #0056b3;
+}
+
+.counter-container button:active {
+  background-color: #004494;
+  transform: scale(0.98);
+}
